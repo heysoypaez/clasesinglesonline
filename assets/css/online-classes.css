@@ -1,0 +1,37 @@
+.online-classes-section {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);	
+	grid-template-rows: auto;
+	grid-gap: 10px;
+	justify-content: center;
+	justify-items: center;
+	text-align: center;
+}
+
+.online-classes-section__item-1__title {
+	margin-top: 2%;
+	font-size: 60px;
+	font-weight: 500;
+	padding: 0 15%;
+	margin-bottom: 0;
+	line-height: 1;
+	color: #a91b0d;
+}	
+
+
+@media screen and (min-width: 426px) {
+	.online-classes-section__item-1 {
+		grid-column: 1/7;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.online-classes-section {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+		grid-gap: 10px;
+		align-items: end;
+		width: 100%;
+	}	
+}
