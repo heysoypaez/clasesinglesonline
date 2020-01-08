@@ -34,4 +34,13 @@
 		align-items: end;
 		width: 100%;
 	}	
+	.online-classes-section__item-1 {
+		width: 90vw;
+	}
+
+	.online-classes-section__item-1 img {
+		width: 100%;
+	}
+
+
 }
